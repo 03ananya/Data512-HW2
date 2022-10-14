@@ -8,7 +8,7 @@ The goal of this assignment is to explore the concept of bias in data using Wiki
 Data Source
 The input data files given in this repository are:
  - [politicians_by_country.SEPT.2022.csv](https://docs.google.com/spreadsheets/u/0/d/1Y4vSTYENgNE5KltqKZqnRQQBQZN5c8uKbSM4QTt8QGg/edit)
-  -[population_by_country_2022.csv] (https://docs.google.com/spreadsheets/u/0/d/1POuZDfA1sRooBq9e1RNukxyzHZZ-nQ2r6H5NcXhsMPU/edit)
+ - [population_by_country_2022.csv] (https://docs.google.com/spreadsheets/u/0/d/1POuZDfA1sRooBq9e1RNukxyzHZZ-nQ2r6H5NcXhsMPU/edit)
 
 In addition to these, web scraping has been performed to wikipedia pages -politicians wikipedia pages and population) web pages
 The datasource endpoints are licensed under the [CC-BY-SA 3.0]( CC-BY-SA 3.0 and GFDL licenses) and [GFDL licenses](CC-BY-SA 3.0 and GFDL licenses). ORES is a machine learning tool that can provide estimates of Wikipedia article quality. Data description for the article quality variable is as given below:
@@ -18,7 +18,8 @@ The datasource endpoints are licensed under the [CC-BY-SA 3.0]( CC-BY-SA 3.0 and
  - C - C-class article
  - Start - Start-class article
  - Stub - Stub-class article
-
+ 
+ API links:
  - [ORES API](https://www.mediawiki.org/wiki/ORES)
  - [Wikiedia REST API](https://www.mediawiki.org/wiki/Wikimedia_REST_API)
 
