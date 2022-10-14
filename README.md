@@ -62,12 +62,6 @@ Also, one would expect that the article quality might be better in native Englis
 There was also some issue with certain names because they had characters not supported by Wikipedia or Python very well. There was manual intervention necessary to ensure this does not increase the bias in our base data.
  - While Wikipedia is a great source of information in most scenarios, one should be wary of using the final analysis in an inappropriate context. It is not representative of the world as a whole, and you need to make certain assumptions and take care of the considerations mentioned above.
 Can you think of a realistic data science research situation where using this data (to train a model, perform a hypothesis-driven research, or make business decisions)  = As mentioned in the text above, this data and the analysis performed here should only be used while keeping in mind the inherent limitations. If this data is used to predict the popularity of the politicians in their respective countries, it might lead to erroneous predictions because of linguistic bias. 
- 
 
-
-## Research Implications
-The main point that the research analysis is trying to drive is that of the implicit bias in data or analysis that can get included in any stage of the process - data, collection, model design, variable representation to name a few. And the source of these biases could be demographic, gender, cultural prejudices, literacy rates etc. 
-Here, we calculate the articles per capita of all countries based on the given population data and articles scores as scraped on the wikipedia pages corresponding to these articles. The point of contention now is whether this is a reliable metric given the inherent bosses in the data. By definition, the per capita number of articles is dependent on the country’s population. The countries with higher population tend to have lower per capita articles, because the number of articles would not increase in accordance to the increase in population when we compare a lesser populated country with a more populated country.
-Also, one would expect that the article quality might be better in native English speaking countries, pointing to a linguistic bias. These biases and inconsistencies lead us to be wary of using these results in our analysis going forward.
 
 
